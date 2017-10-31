@@ -87,6 +87,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     /**
      * onClick handler. directs traffic toward the correct layout id
+     *
+     * @param The view that called this method.
      */
     @Override
     public void onClick(View view) {
@@ -136,6 +138,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     /**
      * Updates the isChecked property of the items in the list
+     * 
+     * @param view The view that called this method.
      */
     private void checkTask(View view) {
         CheckBox selectedCheckBox = (CheckBox) view;
